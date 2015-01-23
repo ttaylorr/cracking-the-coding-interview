@@ -1,5 +1,8 @@
 package com.ttaylorr.ctci.answers.strings;
 
+import com.ttaylorr.ctci.meta.Solution;
+
+@Solution(chapter = 1, problem = 4)
 public class AnagramTester {
     protected final String s1;
     protected final String s2;
