@@ -1,13 +1,13 @@
-package com.ttaylorr.ctci.answers.chapter_1;
+package com.ttaylorr.ctci.answers.strings;
 
 import com.ttaylorr.ctci.meta.Solution;
 
 @Solution(chapter = 1, problem = 1)
-public class StringUniquenessTest {
+public class UniquenessTest {
     public static final int MAX_CHAR_SIZE = 128;
     protected final String str;
 
-    public StringUniquenessTest(String str) {
+    public UniquenessTest(String str) {
         this.str = str;
     }
 

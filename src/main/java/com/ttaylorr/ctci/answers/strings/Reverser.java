@@ -1,12 +1,12 @@
-package com.ttaylorr.ctci.answers.chapter_1;
+package com.ttaylorr.ctci.answers.strings;
 
 import com.ttaylorr.ctci.meta.Solution;
 
 @Solution(chapter = 1, problem = 2)
-public class StringReverser {
+public class Reverser {
     protected final String str;
 
-    public StringReverser(String str) {
+    public Reverser(String str) {
         this.str = str;
     }
 
