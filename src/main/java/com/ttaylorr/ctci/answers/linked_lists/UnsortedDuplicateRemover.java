@@ -14,6 +14,14 @@ public class UnsortedDuplicateRemover<E> {
         this.head = head;
     }
 
+    /**
+     * This mutates and removes all duplicate nodes that are in the
+     * same {@link com.ttaylorr.ctci.answers.linked_lists.util.LinkedList} as
+     * the `head` node.
+     *
+     * Since we use an extra buffer here, you'd prefer to use this implementation
+     * when we're using a large linked list, since the amortized time is O(n).
+     */
     public void removeWithBuffer() {
         if (this.head == null) return;
 
@@ -32,6 +40,13 @@ public class UnsortedDuplicateRemover<E> {
         }
     }
 
+    /**
+     * "This mutates and removes all duplicate nodes in the LinkedList, much the same as the
+     * `removeWithBuffer` method.
+     *
+     * Since we are using no buffer, you'd prefer to use this method over the other one when
+     * the LinkedList is relatively small, since its amortized time is O(n^2).
+     */
     public void removeWithoutBuffer() {
         if (this.head == null) return;
 
