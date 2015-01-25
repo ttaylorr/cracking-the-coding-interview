@@ -11,4 +11,8 @@ public class TreeNode<E> {
     public @NotNull E value;
     public @Nullable TreeNode<E> left;
     public @Nullable TreeNode<E> right;
+
+    public TreeNode(E value) {
+        this.value = value;
+    }
 }
